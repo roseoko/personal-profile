@@ -1,2 +1,102 @@
-# personal-profile
-a simple html styled ppersonal page
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal profile</title>
+
+
+            <style>
+    body {
+      font-family: 'Courier New',monospace;
+      margin: 0;
+      padding: 0;
+      background: #ACCAB2;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: #354024;
+      color: white;
+      border-radius: 0 0 15px 15px;
+        box-shadow: 3px 7px 10px rgba(49, 79, 79, 0.5); 
+    }
+
+    header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      box-shadow: 0 7px 10px rgba(5, 8, 8, 0.8);
+    }
+    header h1 {
+      margin: 10px 0;
+      font-family: 'courier new', monospace;
+    }
+    section {
+      margin: 30px 0;
+      padding: 20px;
+      background: #CFBB99;
+      border-radius: 12px;
+      box-shadow: 0 7px 10px rgba(49, 79, 79, 0.5);
+    }
+    h2 {
+      color: #000;
+      margin-bottom: 15px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 8px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      color: #777;
+    }
+    a {
+      color: #4a90e2;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+    <body style="background-color: #ACCAB2;"></body>
+  <div class="container">
+    <header>
+      <img src="./images/mypicture.jpg" alt="Profile Picture">
+      <h1>Rose Oko</h1>
+      <p>Web Developer  |  Artist  |  Creator</p>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <p>Hello! I'm Rose Oko, passionate about coding, design, and building creative digital experiences. I'm also an oil paint artist, my painting style is all over the place but i lean more towards Impressionism and Surrelism.
+      I especially love to read and research they're like second nature to me.</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>💻 HTML, CSS, JavaScript</li>
+        <li>⚙️ React, Node.js</li>
+        <li>🎨 UI/UX Design</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href=".com">youremail@example.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/roseoko/">linkedin.com/in/roseoko</a></p>
